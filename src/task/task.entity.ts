@@ -1,11 +1,7 @@
-enum TaskStatus {
-  DONE = 'DONE',
-  IN_PROGRESS = 'IN_PROGRESS',
-  OPEN = 'OPEN',
-}
+import { TaskStatus } from './task-status';
 export class TaskEntity {
-  id: number;
   title: string;
   description: string;
   status: TaskStatus;
+  categoryId: string;
 }
