@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "id": "bafda1ee-812a-4969-9108-7392006cfbb0",
+      "name": "International"
+    },
+    {
+      "id": "dedf1882-cfc8-44d1-8efb-f4755a90f378",
+      "name": " bug"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "78080ade-ba07-40fd-851b-8c51cedd3181",
+      "title": "eligrand",
+      "description": "hey hey hey hey hey",
+      "categoryId": "bafda1ee-812a-4969-9108-7392006cfbb0",
+      "status": "OPEN"
+    },
+    {
+      "id": "306010f0-f859-4dc5-a12e-39668775a81f",
+      "title": "just test the delete",
+      "description": "hey hey hey hey hey",
+      "categoryId": "bafda1ee-812a-4969-9108-7392006cfbb0",
+      "status": "OPEN"
+    }
+  ]
+}
