@@ -11,13 +11,12 @@ async function bootstrap() {
     }),
   );
   const options = new DocumentBuilder()
-    .setTitle('Your API Title')
-    .setDescription('Your API description')
+    .setTitle('Back-end todo app')
+    .setDescription(
+      'This API allows you to manage tasks and categories using a JSON-based database. You can create, read, update, and delete tasks and categories, as well as assign tasks to categories. The API follows the RESTful principles and uses the HTTP methods GET, POST, and DELETE. The API also validates the data and handles errors gracefully',
+    )
     .setVersion('1.0')
     .addServer('http://localhost:3000/', 'Local environment')
-    .addServer('https://staging.yourapi.com/', 'Staging')
-    .addServer('https://production.yourapi.com/', 'Production')
-    .addTag('Your API Tag')
     .build();
 
   const document = SwaggerModule.createDocument(app, options);
